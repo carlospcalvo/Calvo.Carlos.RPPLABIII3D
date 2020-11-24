@@ -1,0 +1,222 @@
+* {
+    font-family: "Lato", sans-serif;
+}
+
+html,
+body {
+    width: 100%;
+    height: 100%;
+}
+
+body {
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+}
+
+.container {
+    display: flex;
+    justify-content: center;
+    justify-content: space-evenly;
+}
+
+header {
+    background-color: steelblue;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-items: center;
+    align-content: center;
+    color: black;
+}
+
+footer {
+    display: flex;
+    justify-content: space-between;
+    background-color: steelblue;
+    text-decoration: none;
+    flex-wrap: wrap;
+    margin-top: auto;
+}
+
+.topnavbar {
+    list-style-type: none;
+    text-decoration: none;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: flex-end;
+    align-self: center;
+    word-spacing: 1vw;
+    padding-right: 10px;
+    padding-left: 10px;
+}
+
+.bottomNavbar {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: flex-start;
+    word-spacing: 1vw;
+}
+
+fieldset {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    border: 1px solid black;
+    padding: 5px;
+    background-color: lightgoldenrodyellow;
+    flex-wrap: wrap;
+}
+
+html,
+body {
+    width: 100%;
+    height: 100%;
+    margin: 0;
+    padding: 0;
+}
+
+.Transacción {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+
+#tableDiv {
+    /*width: 100%;*/
+    overflow: auto;
+    /* margin-left: auto;
+    margin-right: auto;*/
+    display: flex;
+    flex-wrap: nowrap;
+    justify-content: center;
+}
+
+table {
+    border-collapse: collapse;
+    table-layout: auto;
+    width: 100%;
+    align-self: center;
+}
+
+th {
+    background-color: salmon;
+    text-transform: capitalize;
+}
+
+table,
+th,
+td {
+    border: 1px solid black;
+    padding: 5px;
+}
+
+tbody {
+    overflow-x: scroll;
+}
+
+.buttons {
+    display: flex;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+}
+
+input {
+    display: flex;
+    justify-content: right;
+}
+
+a {
+    text-decoration: none;
+    color: black;
+}
+
+a:hover {
+    text-decoration: underline;
+}
+
+p {
+    display: flex;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+    padding-left: 30px;
+    padding-right: 10px;
+}
+
+tr:nth-child(even) {
+    background-color: gainsboro;
+}
+
+tr:hover {
+    background-color: lightskyblue;
+}
+
+.btnImage {
+    width: 10px;
+    height: 10px;
+    display: flex;
+    justify-content: left;
+}
+
+#divLogo {
+    display: flex;
+    justify-content: flex-start;
+    margin-right: auto;
+}
+
+.logo {
+    display: contents;
+    justify-content: flex-start;
+    width: 5px;
+    height: 5px;
+}
+
+#spinner {
+    display: flex;
+    justify-content: center;
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+
+#tituloAdmin {
+    display: flex;
+    flex-wrap: nowrap;
+    justify-content: center;
+}
+
+#imgAdmin {
+    display: flex;
+    width: 100%;
+    height: auto;
+}
+
+@media screen and (min-width: 0px) and (max-width: 750px) {
+    #sectionAdmin {
+        display: none;
+    }
+}
+
+@media screen and (min-width: 0px) and (max-width: 923px) {
+    table {
+        table-layout: fixed;
+        overflow: auto;
+    }
+}
+
+#OtrosDatos {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    text-transform: capitalize;
+}
+
+.checks {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+}
+
+.CheckContainer {
+    display: inline-flex;
+    justify-content: left;
+}
